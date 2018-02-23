@@ -1,0 +1,30 @@
+nav {
+    height: 100%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    > div.container {
+        a.navbar-brand {
+            color: black;
+        }
+        button {
+            > span {
+
+            }
+        }
+        div {
+            > ul {
+                li {
+                    > a {
+                        color: black;
+                        text-transform: uppercase;
+                    }
+                }
+                li.active {
+                    > a {
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+}
